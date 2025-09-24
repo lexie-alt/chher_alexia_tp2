@@ -17,7 +17,7 @@ domicile, maison, intérieur
 ### Choix d'interactions avec le clavier
 * **flèches;** haut bas gauche droite
 * **wsad;** haut bas gauche droite
-* **shift;** interagir avec porte, lieu,
+* **shift;** interagir avec objet et environnement
 
 ### Choix des médias visuels
 * pixel art design
@@ -32,6 +32,6 @@ domicile, maison, intérieur
 * menus sound
 
 ## Assets pack links
-*House Interior Retro (https://penzilla.itch.io/top-down-retro-interior)
-*Characters Cozy (https://shubibubi.itch.io/cozy-people)
-*Characters (https://danieldiggle.itch.io/sunnyside)
+* House Interior Retro (https://penzilla.itch.io/top-down-retro-interior)
+* Characters Cozy (https://shubibubi.itch.io/cozy-people)
+* Characters (https://danieldiggle.itch.io/sunnyside)
