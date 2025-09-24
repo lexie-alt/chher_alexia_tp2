@@ -21,6 +21,7 @@ domicile, maison, intérieur
 
 ### Choix des médias visuels
 * pixel art design
+
 ![house_interior_retro](https://img.itch.zone/aW1hZ2UvMTc4NjI3OS8xNTMyNzQ2NC5wbmc=/794x1000/lCk9cg.png)
 ![characters_cozy](https://img.itch.zone/aW1nLzY3NjQxMTYucG5n/original/NQLgyA.png)
 
@@ -31,6 +32,6 @@ domicile, maison, intérieur
 * menus sound
 
 ## Assets pack links
-House Interior Retro (https://penzilla.itch.io/top-down-retro-interior)
-Characters Cozy (https://shubibubi.itch.io/cozy-people)
-Characters (https://danieldiggle.itch.io/sunnyside)
+*House Interior Retro (https://penzilla.itch.io/top-down-retro-interior)
+*Characters Cozy (https://shubibubi.itch.io/cozy-people)
+*Characters (https://danieldiggle.itch.io/sunnyside)
