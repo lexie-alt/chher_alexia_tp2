@@ -11,7 +11,11 @@ domicile, maison, intérieur
 
 ## Interactions 
 * livre = affiche un message
-* pomme = augmente vitesse personnage x2 pendant 10 secondes
+* **pomme = augmente vitesse personnage x2 pendant 10 secondes**
+  * conditions de déclénchement : approche et affiche appuie shift
+  * combien de fois peut cet objet déclencher sont comportement ? : au 10 secondes apparait et disparait
+  * effets que vont être appliqués : boost vitesse marche
+  * après l'application, retourne à son état original ou est-il détruit après l'utilisation ? : revient après 10 secondes
 * canard = son canard
 
 ### Choix d'interactions avec le clavier
