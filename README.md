@@ -13,6 +13,7 @@ domicile, maison, intérieur
 * livre = affiche un message
 * **pomme = augmente vitesse personnage x2 pendant 10 secondes**
   * conditions de déclénchement : approche et affiche appuie shift
+  * utilisation Area2D pour la détection de proximité ou changement de paramètres par volume
   * combien de fois peut cet objet déclencher sont comportement ? : au 10 secondes apparait et disparait
   * effets que vont être appliqués : boost vitesse marche
   * après l'application, retourne à son état original ou est-il détruit après l'utilisation ? : revient après 10 secondes
