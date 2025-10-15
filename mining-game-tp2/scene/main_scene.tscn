@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnwe2v3nj407k"]
+
+[ext_resource type="PackedScene" uid="uid://cpieymo635ovo" path="res://characters/playerMouse.tscn" id="1_wgwml"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="playerMouse" parent="." instance=ExtResource("1_wgwml")]
