@@ -199,6 +199,7 @@ transitions = ["walk", "idle", SubResource("AnimationNodeStateMachineTransition_
 
 [node name="playerDino" type="CharacterBody2D"]
 script = ExtResource("1_4h62t")
+move_speed = null
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_j85im")
