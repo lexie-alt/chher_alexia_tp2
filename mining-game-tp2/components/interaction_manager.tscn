@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkkltldokndpb"]
+
+[ext_resource type="Script" uid="uid://chd2hcluimetb" path="res://components/interaction_manager.gd" id="1_hahxm"]
+
+[node name="InteractionManager" type="Node2D"]
+script = ExtResource("1_hahxm")
+
+[node name="Label" type="Label" parent="."]
+z_index = 10
+offset_right = 40.0
+offset_bottom = 23.0
+text = "E pour intéragir"
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -1,0 +1,55 @@
+[gd_scene load_steps=11 format=3 uid="uid://j0xwca2ry3ta"]
+
+[ext_resource type="Texture2D" uid="uid://wvh3ieqsrjmj" path="res://asset/dinoCharactersVersion1.1/sheets/DinoSprites - mort.png" id="1_340of"]
+[ext_resource type="Script" uid="uid://duust8u5x1jl2" path="res://characters/guide.gd" id="1_av5hk"]
+[ext_resource type="Script" uid="uid://dt3656wtfvmoo" path="res://characters/player_dino.gd" id="2_je83v"]
+[ext_resource type="PackedScene" uid="uid://bggwbie0er8nd" path="res://components/interaction_area.tscn" id="4_i831r"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_340of"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_je83v"]
+atlas = ExtResource("1_340of")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7acdl"]
+atlas = ExtResource("1_340of")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_av5hk"]
+atlas = ExtResource("1_340of")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i831r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_je83v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7acdl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_av5hk")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_je83v"]
+
+[node name="guide" type="Node2D"]
+script = ExtResource("1_av5hk")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+material = SubResource("ShaderMaterial_340of")
+sprite_frames = SubResource("SpriteFrames_i831r")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.406347
+script = ExtResource("2_je83v")
+
+[node name="InteractionArea" parent="." instance=ExtResource("4_i831r")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("CapsuleShape2D_je83v")

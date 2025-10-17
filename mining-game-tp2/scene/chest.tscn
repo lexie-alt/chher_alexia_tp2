@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://btx177x1ex80a"]
+
+[ext_resource type="Texture2D" uid="uid://ws1cw5g3swfd" path="res://asset/kenney_desert-shooter-pack_1.0/PNG/Tiles/Tiles/tile_0216.png" id="1_26f88"]
+[ext_resource type="Texture2D" uid="uid://df2rb0umknc13" path="res://asset/kenney_desert-shooter-pack_1.0/PNG/Tiles/Tiles/tile_0217.png" id="1_c0k1r"]
+[ext_resource type="Script" uid="uid://da7cjwe35uhk3" path="res://scene/chest.gd" id="1_cettl"]
+[ext_resource type="PackedScene" uid="uid://c6qmo0h7vtgky" path="res://components/interactable.tscn" id="4_26vdv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bgh66"]
+radius = 15.0333
+
+[node name="chest" type="StaticBody2D"]
+script = ExtResource("1_cettl")
+
+[node name="interactable" parent="." instance=ExtResource("4_26vdv")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable"]
+shape = SubResource("CircleShape2D_bgh66")
+
+[node name="opened" type="Sprite2D" parent="."]
+texture = ExtResource("1_c0k1r")
+
+[node name="closed" type="Sprite2D" parent="."]
+texture = ExtResource("1_26f88")
