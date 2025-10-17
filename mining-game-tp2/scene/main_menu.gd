@@ -1,5 +1,5 @@
 extends Control
-@onready var audio = ("res://asset/confirmation_003.ogg")
+#@onready var audio = ("res://asset/confirmation_003.ogg")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+
 const acc = 1
 
 @export var move_speed : float = 100
@@ -35,9 +36,9 @@ func update_animation_parameters(move_input : Vector2):
 		if(move_input != Vector2.ZERO):
 			animation_tree.set("parameters/walk/blend_position", move_input)
 			animation_tree.set("parameters/idle/blend_position", move_input)
-			
+
 func pick_new_state():
 	if(velocity != Vector2.ZERO):
 		state_machine.travel("walk")
 	else:
-		state_machine.travel("idle")		
+		state_machine.travel("idle")	

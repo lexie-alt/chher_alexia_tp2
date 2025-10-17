@@ -10,6 +10,7 @@
 
 [node name="guide" parent="." instance=ExtResource("3_fb1ex")]
 position = Vector2(185, 84)
+script = null
 
 [node name="playerDino" parent="." instance=ExtResource("1_wgwml")]
 position = Vector2(79, 85)
